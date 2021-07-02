@@ -1,4 +1,4 @@
-import simpleIcons from "simple-icons";
+import simpleIcons from "../node_modules/simple-icons/index";
 
 const MadeWithEnable = () => {
    let github = simpleIcons.Get("github");

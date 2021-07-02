@@ -1,12 +1,10 @@
 {
   "name": "made-with-collection",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Badge image provider for softwares and technologies based on simple-icons",
-  "main": "index.js",
+  "main": "src/index.js",
   "type": "module",
-  "scripts": {
-    "test": "node test.js"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MrAnyx/made-with-collection.git"
@@ -15,7 +13,7 @@
     "js",
     "lib"
   ],
-  "author": "",
+  "author": "Robin B <robin@codeon.fr>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MrAnyx/made-with-collection/issues"
