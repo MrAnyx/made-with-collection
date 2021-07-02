@@ -7,4 +7,4 @@ MadeWith.enable = () => {
    console.log(github);
 };
 
-module.export = MadeWith;
+module.exports.MadeWith = MadeWith;
