@@ -2,20 +2,20 @@
   "name": "made-with-collection",
   "version": "1.0.0",
   "description": "Badge image provider for softwares and technologies based on simple-icons",
-  "main": "./src/index.js",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "node ./src/index.js"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MrAnyx/made-with-collection.git"
   },
   "keywords": [
-    "simple-icons",
     "js",
     "lib"
   ],
-  "author": "Robin B <robin@codeon.fr>",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MrAnyx/made-with-collection/issues"
