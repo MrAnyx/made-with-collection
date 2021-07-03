@@ -1,6 +1,6 @@
 {
   "name": "made-with-collection",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Badge image provider for softwares and technologies based on simple-icons",
   "main": "dist/made-with-module.min.js",
   "type": "module",

@@ -31,10 +31,10 @@ MadeWith.enable();
 Simply link the CDN to your html page like this
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/made-with-collection@1.0.3/dist/made-with.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/made-with-collection@latest/dist/made-with.js"></script>
 
 <!-- Or the minified version -->
-<script src="https://cdn.jsdelivr.net/npm/made-with-collection@1.0.3/dist/made-with.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/made-with-collection@latest/dist/made-with.min.js"></script>
 ```
 
 ## Usage
