@@ -1,8 +1,8 @@
 {
   "name": "made-with-collection",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Badge image provider for softwares and technologies based on simple-icons",
-  "main": "src/index.js",
+  "main": "dist/made-with-module.min.js",
   "type": "module",
   "scripts": {
     "build": "babel src -d dist && uglifyjs dist/made-with-module.js -c -m reserved=['img','text','div'] -o dist/made-with-module.min.js && uglifyjs dist/made-with.js -c -m reserved=['img','text','div'] -o dist/made-with.min.js"
