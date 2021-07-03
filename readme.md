@@ -13,7 +13,7 @@ npm i made-with-collection
 - By downloading the latest release
 - Or using a CDN
 
-## Usage
+## Import
 
 ### Using module import
 
@@ -31,9 +31,28 @@ MadeWith.enable();
 Simply link the CDN to your html page like this
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-<script src="https://unpkg.com/react@16.7.0/umd/react.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/made-with-collection@1.0.3/dist/made-with.js"></script>
+
+<!-- Or the minified version -->
+<script src="https://cdn.jsdelivr.net/npm/made-with-collection@1.0.3/dist/made-with.js"></script>
 ```
+
+## Usage
+
+First, you need to provide a custom class `made-with` to detect which element needs to be converted into a made-with badge.
+
+Then, you'll ne provide html data attributs. There are currently 3 parameters available : 
+
+- **data-mw-icon**
+- **data-mw-size**
+- **data-mw-theme**
+
+| Attribut | Values | Default |
+| -------- | ------ | ------- |
+|data-mw-icon| Any icon available on simple-icons|none
+|data-mw-size| small, medium, large| medium|
+data-mw-theme | light, dark | light|
+
 
 Examples are provided onto the `/test` folder.
 
