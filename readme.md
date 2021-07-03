@@ -2,6 +2,11 @@
 
 Made-with-collection a badge provider based on [simple-icons](https://github.com/simple-icons/simple-icons) for websites.
 
+## Preview
+
+![](./assets/size.png)
+![](./assets/theme.png)
+
 ## Installation
 
 - You can install it using `npm`
