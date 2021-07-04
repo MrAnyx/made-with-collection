@@ -2,6 +2,10 @@
 
 Made-with-collection a badge provider based on [simple-icons](https://github.com/simple-icons/simple-icons) for websites.
 
+## Disclaimer
+
+Simple icons provides icons that may include a license, copyright or trademarkes. Before any usage, read the simple-icons [disclaimer](https://github.com/simple-icons/simple-icons/blob/develop/DISCLAIMER.md) before using this library.
+
 ## Preview
 
 ![](./assets/size.png)
@@ -58,7 +62,10 @@ Then, you'll ne provide html data attributs. There are currently 3 parameters av
 |data-mw-size| small, medium, large| medium|
 data-mw-theme | light, dark | light|
 
-
 Examples are provided onto the `/test` folder.
+
+```html
+<div class="made-with" data-mw-icon="[ICON_SLUG]" data-mw-size="medium" data-mw-theme="light"></div>
+```
 
 Hope you like it 👍
